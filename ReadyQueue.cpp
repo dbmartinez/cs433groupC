@@ -12,7 +12,7 @@ ReadyQueue::ReadyQueue()
   
 }
 
-void ReadyQueue::addPCB(PCB& pcbPtr)
+void ReadyQueue::addPCB(PCB* pcbPtr)
 {
   
 }
