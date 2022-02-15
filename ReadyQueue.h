@@ -15,7 +15,8 @@ class ReadyQueue {
 //	
 public:
 	// TODO: Implement the required functions. Add necessary member fields and functions
-	
+	ReadyQueue();
+    	~ReadyQueue();  
 	
 	// You may use different parameter signatures from the example below
 	
