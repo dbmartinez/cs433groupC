@@ -38,19 +38,23 @@ class PCB
 
 	// TODO: Add constructor and other necessary functions for the PCB class
 	private:
-        int id;
-        int intPriority;
-        ProcState state;
+		// The unique process ID
+        	int id;
+		// The priority of a process valued between 1-50. Larger number represents higher priority
+		int intPriority;
+		// The current state of the process.
+		// A process in the ReadyQueue should be in READY state
+		ProcState state;
 
-    	public:
-        PCB();
-        PCB(int, int, processStates);
-        ~PCB();
-        void setID(int);
-        void setIntPriority(int);
-        int getID();
-        int getIntPriority();
-        void setState(ProcState);
-        ProcState getState();
+	public:
+		PCB();
+		PCB(int, int, processStates);
+		~PCB();
+		void setID(int);
+		void setIntPriority(int);
+		int getID();
+		int getIntPriority();
+		void setState(ProcState);
+		ProcState getState();
 };
 
