@@ -23,10 +23,14 @@ int main(int argc, char* argv[]) {
 	//TODO: add processes 14, 1, 28, 39 and 18 to q1. Display the content of q1
 	
 	//TODO: remove one process with the highest priority from q1 and display q1.
+	q1.remove();
+	q1.dispaly();
 	
 	//TODO: add additional processes 48, 10, 31 and 19 into q1, and display q1.
 	
 	//TODO: remove one process with the highest priority from q1 and display q1.
+	q1.remove();
+	q1.dispaly();
 	
 	//TODO: add additional processes 29, 41, 18 and 46 to q1 and display q1.
 	
